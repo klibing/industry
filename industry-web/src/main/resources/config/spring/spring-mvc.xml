@@ -24,6 +24,7 @@
 				<property name="writeAcceptCharset" value="false" />
 				<property name="supportedMediaTypes">
 					<list>
+						<value>application/json</value>
 						<value>text/xml</value>
 					</list>
 				</property>
