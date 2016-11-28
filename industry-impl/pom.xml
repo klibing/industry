@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>shengjing.industry</groupId>
+    <artifactId>industry</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>industry-impl</artifactId>
+  <dependencies>
+  	<dependency>
+  		<groupId>shengjing.industry</groupId>
+  		<artifactId>industry-api</artifactId>
+  		<version>1.0.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-webmvc</artifactId>
+  		<version>4.1.7.RELEASE</version>
+  	</dependency>
+  </dependencies>
+</project>
