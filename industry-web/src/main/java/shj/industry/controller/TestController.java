@@ -25,7 +25,7 @@ public class TestController {
 	}
 	
 	@RequestMapping(value="/user/{id}", method=RequestMethod.GET)
-	public User toJson(@PathVariable int id) {
+	public User toJson(@PathVariable(value="id") int id) {
 		User user = userService.getUserById(id);
 		return user;
 	}
